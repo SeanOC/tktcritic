@@ -1,0 +1,3 @@
+django
+simplejson
+psycopg2
