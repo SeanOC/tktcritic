@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# This is a simple script to fetch your auth tokens for google.
+# Set the following environment variables to get started
+# GOOGLE_ACCOUNT_NAME - Your google user name
+# GOOGLE_ACCOUNT_DOMAIN - Your google apps domain or "gmail.com"
+# GOOGLE_ACCOUNT_PASSWORD - Your google password
+
 curl -X POST \
   -d accountType=HOSTED_OR_GOOGLE \
   -d Email=$GOOGLE_ACCOUNT_NAME@$GOOGLE_ACCOUNT_DOMAIN \
